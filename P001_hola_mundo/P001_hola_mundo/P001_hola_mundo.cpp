@@ -19,17 +19,20 @@ int main()
     //std::endl;
     //iniciaremos las variables de diferencia de tipos
     int Edad = 0;
+    int real = 0;
     //int para guardar numeros enteros reales
     float Altura = 0;
-    float Cali = 0;
+    float Cali = 0, resultado = 0;
     // float guarda numeros con decimales
     bool Mx = false;
         //Para guardar Verdadero o Falso
         double exponencial = 0;
+        double n1 = 0;
+        double n2 = 0;
     //Para numeros muy largos
     char Sexo = ' ';
     //para letras
-    char nombre[15] = " ";//valor n no modificable
+    char Pais[15] = " ";//valor n no modificable
 std::string name = " ";
     //para guardar cadena de caracteres,muchas letras
 
@@ -47,12 +50,25 @@ std::cout << "Pon un numero con más de 6 digitos" << std::endl;
 std::cin >> exponencial;
 std::cout << "Qué genero eres?? M o F" << std::endl;
 std::cin >> Sexo;
-std::cout << "Como te llmas??" << std::endl;
+std::cout << "Como te llamas??" << std::endl;
 std::cin >> name;
-std::cout << "Estso son los resultados, tu altura es " << Altura << ", eres " << Sexo << "y te llamas " << name << ".También aquí esta tu numero " << exponencial << "." << std::endl;;
+std::cout << "Estos son los resultados, tu altura es " << Altura << ", eres " << Sexo << " y te llamas " << name << ".También aquí esta tu numero " << exponencial << " y tu sexo es " << Sexo << "." << std::endl;;
 std::cout << "México es el mejor país??" << std::endl;
 std::cin >> Mx;
-std::cout << "";
+std::cout << "Si lo es:" << Mx << std::endl;
+std::cout << "Cuentame cual es tu país favorito " << std::endl;
+std::cin >> Pais;
+std::cout << "Excelente " << Pais << " es un lugar increible." << std::endl;
+std::cout << "Porfa ingresa dos numeros, se realizaran operaciones con estas." << std::endl;
+std::cin >> n1;
+std::cin >> n2;
+std::cout << "Suma " << n1 + n2 << std::endl;
+std::cout << "Resta " << n1 - n2 << std::endl;
+std::cout << "Multi " << n1 * n2 << std::endl;
+std::cout << "división " << n1 / n2 << std::endl;
+std::cout << "Potencia " << std::pow(n1, n2) << std::endl;
+std::cout << "Raiz " << std::pow(n1,1 / n2) << std::endl;
+
 }
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
