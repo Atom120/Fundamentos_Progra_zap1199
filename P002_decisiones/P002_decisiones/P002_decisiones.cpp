@@ -50,6 +50,20 @@ int main()
         numero = numero * -1;
     }
     std::cout << "This is ur age in absolute number " << numero;
+
+    float num1 = 0;
+    float num2 = 0;
+
+    if (num1 > num2) {
+
+        std::cout << num1 << " es mayor a " << num2;
+     }
+    else {
+        std::cout << num2 << " es mayor a " << num1;
+    }
+    else if (num1 == num2) {
+         std::cout << num1, num2 "son iguales";
+    }
 }
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
