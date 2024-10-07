@@ -9,7 +9,7 @@
 int main()
 {//Decisiones anidadas
     setlocale(LC_ALL, "en_MX.UTF-8");
-    /*
+    
      std::string apodo = "atom120";
      std::string apodo_usuario;
      std::string contra = "hola123";
@@ -34,7 +34,7 @@ int main()
      {
          std::cout << "No conozco a ese usuario" << std::endl;
      }
-     */
+     
     bool natacion;
     natacion = true;
 
@@ -90,7 +90,7 @@ int main()
     bool ayuda;
     std::cout << "Estas bien??:'(" << std::endl;
     std::cin >> ayuda;
-    if (ayuda)
+    if (ayuda==0)
     {
         std::cout << "Busca ayuda bb" << std::endl;
     }

@@ -29,6 +29,7 @@ int main()
     float peso, altura;
     std::string nom, ciudad;
     setlocale(LC_ALL, "en-US");
+    setlocale(LC_ALL, "en_MX.UTF-8");
 
     std::cout << "Hola, para empezar la consulta primero te haremos unas preguntas\n";
     std::cout << "Dime tu nombre y de donde eres" << std::endl;

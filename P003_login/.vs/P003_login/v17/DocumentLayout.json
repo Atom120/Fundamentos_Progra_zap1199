@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P003_login\\",
+  "WorkspaceRootPath": "C:\\Users\\ALUMNO\\Desktop\\NO BORRAR\\Fundamentos_Progra_zap1199\\P003_login\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3729669A-E8C5-4501-9E8A-020B9E99389A}|P003_login.vcxproj|C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P003_login\\P003_login.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{3729669A-E8C5-4501-9E8A-020B9E99389A}|P003_login.vcxproj|C:\\Users\\ALUMNO\\Desktop\\NO BORRAR\\Fundamentos_Progra_zap1199\\P003_login\\P003_login.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3729669A-E8C5-4501-9E8A-020B9E99389A}|P003_login.vcxproj|solutionrelative:P003_login.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "P003_login.cpp",
-              "DocumentMoniker": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P003_login\\P003_login.cpp",
+              "DocumentMoniker": "C:\\Users\\ALUMNO\\Desktop\\NO BORRAR\\Fundamentos_Progra_zap1199\\P003_login\\P003_login.cpp",
               "RelativeDocumentMoniker": "P003_login.cpp",
-              "ToolTip": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P003_login\\P003_login.cpp",
+              "ToolTip": "C:\\Users\\ALUMNO\\Desktop\\NO BORRAR\\Fundamentos_Progra_zap1199\\P003_login\\P003_login.cpp",
               "RelativeToolTip": "P003_login.cpp",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAB4AAAAeAAAAAAAAAA==",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-04T13:56:34.82Z",
               "EditorCaption": ""

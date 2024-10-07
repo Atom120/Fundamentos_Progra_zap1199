@@ -15,6 +15,7 @@ int main()
     //Sintaxys de Decisiones
     //La palabra reservada es IF
     //Lo que este dentro del parentesis si es verdad
+    
     std::cout << "Hello user give ur age!\n";
     std::cin >> Edad;
     if (Edad >= 18)
@@ -44,26 +45,17 @@ int main()
     //Terminando la ejecución se vendra a esta linea
     //Si es falso ejecuta directo a esta linea
     std::cout << "bye bye baby girl " << std::endl;
+    
+
+    std::cin >> Edad;
     numero = Edad;
     if(numero<0)
+
     {
         numero = numero * -1;
     }
     std::cout << "This is ur age in absolute number " << numero;
 
-    float num1 = 0;
-    float num2 = 0;
-
-    if (num1 > num2) {
-
-        std::cout << num1 << " es mayor a " << num2;
-     }
-    else {
-        std::cout << num2 << " es mayor a " << num1;
-    }
-    else if (num1 == num2) {
-         std::cout << num1, num2 "son iguales";
-    }
 }
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
