@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P004_Entrada y Salida de datos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA1AB6B6-B1AA-443D-95FF-FE9F10C3BC63}|..\\P004_Entrada y Salida de datos\\P004_Entrada y Salida de datos\\P004_Entrada y Salida de datos.vcxproj|C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P004_Entrada y Salida de datos\\P004_Entrada y Salida de datos\\P004_Entrada y Salida de datos.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BA1AB6B6-B1AA-443D-95FF-FE9F10C3BC63}|..\\P004_Entrada y Salida de datos\\P004_Entrada y Salida de datos\\P004_Entrada y Salida de datos.vcxproj|solutionrelative:P004_Entrada y Salida de datos\\P004_Entrada y Salida de datos.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BA1AB6B6-B1AA-443D-95FF-FE9F10C3BC63}|P004_Entrada y Salida de datos\\P004_Entrada y Salida de datos.vcxproj|C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P004_Entrada y Salida de datos\\P004_Entrada y Salida de datos\\P004_Entrada y Salida de datos.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BA1AB6B6-B1AA-443D-95FF-FE9F10C3BC63}|P004_Entrada y Salida de datos\\P004_Entrada y Salida de datos.vcxproj|solutionrelative:P004_Entrada y Salida de datos\\P004_Entrada y Salida de datos.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,9 +22,9 @@
               "Title": "P004_Entrada y Salida de datos.cpp",
               "DocumentMoniker": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P004_Entrada y Salida de datos\\P004_Entrada y Salida de datos\\P004_Entrada y Salida de datos.cpp",
               "RelativeDocumentMoniker": "P004_Entrada y Salida de datos\\P004_Entrada y Salida de datos.cpp",
-              "ToolTip": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P004_Entrada y Salida de datos\\P004_Entrada y Salida de datos\\P004_Entrada y Salida de datos.cpp*",
-              "RelativeToolTip": "P004_Entrada y Salida de datos\\P004_Entrada y Salida de datos.cpp*",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADgAAAA2AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P004_Entrada y Salida de datos\\P004_Entrada y Salida de datos\\P004_Entrada y Salida de datos.cpp",
+              "RelativeToolTip": "P004_Entrada y Salida de datos\\P004_Entrada y Salida de datos.cpp",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAB8AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-07T03:08:54.81Z",
               "EditorCaption": ""

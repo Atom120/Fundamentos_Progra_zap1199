@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P007 Decisiones (IF-ELSE-SWITCH CASE)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{86993F15-408C-483C-9FC8-6BEB318154E6}|P007 Decisiones (IF-ELSE-SWITCH CASE)\\P007 Decisiones (IF-ELSE-SWITCH CASE).vcxproj|C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P007 Decisiones (IF-ELSE-SWITCH CASE)\\P007 Decisiones (IF-ELSE-SWITCH CASE)\\P007 Decisiones (IF-ELSE-SWITCH CASE).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{86993F15-408C-483C-9FC8-6BEB318154E6}|P007 Decisiones (IF-ELSE-SWITCH CASE)\\P007 Decisiones (IF-ELSE-SWITCH CASE).vcxproj|solutionrelative:P007 Decisiones (IF-ELSE-SWITCH CASE)\\P007 Decisiones (IF-ELSE-SWITCH CASE).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "P007 Decisiones (IF-ELSE-SWITCH CASE).cpp",
+              "DocumentMoniker": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P007 Decisiones (IF-ELSE-SWITCH CASE)\\P007 Decisiones (IF-ELSE-SWITCH CASE)\\P007 Decisiones (IF-ELSE-SWITCH CASE).cpp",
+              "RelativeDocumentMoniker": "P007 Decisiones (IF-ELSE-SWITCH CASE)\\P007 Decisiones (IF-ELSE-SWITCH CASE).cpp",
+              "ToolTip": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P007 Decisiones (IF-ELSE-SWITCH CASE)\\P007 Decisiones (IF-ELSE-SWITCH CASE)\\P007 Decisiones (IF-ELSE-SWITCH CASE).cpp*",
+              "RelativeToolTip": "P007 Decisiones (IF-ELSE-SWITCH CASE)\\P007 Decisiones (IF-ELSE-SWITCH CASE).cpp*",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAD8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-07T14:13:52.898Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
