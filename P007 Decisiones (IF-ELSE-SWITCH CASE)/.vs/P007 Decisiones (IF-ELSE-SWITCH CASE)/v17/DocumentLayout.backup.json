@@ -1,10 +1,18 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream:P007 Decisiones (IF-ELSE-SWITCH CASE)/.vs/P007 Decisiones (IF-ELSE-SWITCH CASE)/v17/DocumentLayout.backup.json
   "WorkspaceRootPath": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P007 Decisiones (IF-ELSE-SWITCH CASE)\\",
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{86993F15-408C-483C-9FC8-6BEB318154E6}|P007 Decisiones (IF-ELSE-SWITCH CASE)\\P007 Decisiones (IF-ELSE-SWITCH CASE).vcxproj|C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P007 Decisiones (IF-ELSE-SWITCH CASE)\\P007 Decisiones (IF-ELSE-SWITCH CASE)\\P007 Decisiones (IF-ELSE-SWITCH CASE).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{86993F15-408C-483C-9FC8-6BEB318154E6}|P007 Decisiones (IF-ELSE-SWITCH CASE)\\P007 Decisiones (IF-ELSE-SWITCH CASE).vcxproj|solutionrelative:P007 Decisiones (IF-ELSE-SWITCH CASE)\\P007 Decisiones (IF-ELSE-SWITCH CASE).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+=======
+  "WorkspaceRootPath": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P006 Repaso Entrada y Salida de datos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FED779C7-3E37-4475-B490-E232E200EC18}|P006 Repaso Entrada y Salida de datos\\P006 Repaso Entrada y Salida de datos.vcxproj|C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P006 Repaso Entrada y Salida de datos\\P006 Repaso Entrada y Salida de datos\\P006 Repaso Entrada y Salida de datos.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FED779C7-3E37-4475-B490-E232E200EC18}|P006 Repaso Entrada y Salida de datos\\P006 Repaso Entrada y Salida de datos.vcxproj|solutionrelative:P006 Repaso Entrada y Salida de datos\\P006 Repaso Entrada y Salida de datos.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+>>>>>>> Stashed changes:P006 Repaso Entrada y Salida de datos/.vs/P006 Repaso Entrada y Salida de datos/v17/DocumentLayout.backup.json
     }
   ],
   "DocumentGroupContainers": [
@@ -19,6 +27,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< Updated upstream:P007 Decisiones (IF-ELSE-SWITCH CASE)/.vs/P007 Decisiones (IF-ELSE-SWITCH CASE)/v17/DocumentLayout.backup.json
               "Title": "P007 Decisiones (IF-ELSE-SWITCH CASE).cpp",
               "DocumentMoniker": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P007 Decisiones (IF-ELSE-SWITCH CASE)\\P007 Decisiones (IF-ELSE-SWITCH CASE)\\P007 Decisiones (IF-ELSE-SWITCH CASE).cpp",
               "RelativeDocumentMoniker": "P007 Decisiones (IF-ELSE-SWITCH CASE)\\P007 Decisiones (IF-ELSE-SWITCH CASE).cpp",
@@ -27,6 +36,16 @@
               "ViewState": "AgIAACQAAAAAAAAAAAAAAD8AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-07T14:13:52.898Z",
+=======
+              "Title": "P006 Repaso Entrada y Salida de datos.cpp",
+              "DocumentMoniker": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P006 Repaso Entrada y Salida de datos\\P006 Repaso Entrada y Salida de datos\\P006 Repaso Entrada y Salida de datos.cpp",
+              "RelativeDocumentMoniker": "P006 Repaso Entrada y Salida de datos\\P006 Repaso Entrada y Salida de datos.cpp",
+              "ToolTip": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P006 Repaso Entrada y Salida de datos\\P006 Repaso Entrada y Salida de datos\\P006 Repaso Entrada y Salida de datos.cpp",
+              "RelativeToolTip": "P006 Repaso Entrada y Salida de datos\\P006 Repaso Entrada y Salida de datos.cpp",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-07T05:02:49.094Z",
+>>>>>>> Stashed changes:P006 Repaso Entrada y Salida de datos/.vs/P006 Repaso Entrada y Salida de datos/v17/DocumentLayout.backup.json
               "EditorCaption": ""
             }
           ]
