@@ -45,7 +45,7 @@ int main()
                 else
                 {
                     std::cout << "GG, bye \n";
-                    system("pau2112se");
+                    system("pause");
                     system("cls");
                 }
         }

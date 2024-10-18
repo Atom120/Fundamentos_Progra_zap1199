@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ALUMNO\\Desktop\\NO BORRAR\\Fundamentos_Progra_zap1199\\P006 Repaso Entrada y salida\\",
+  "WorkspaceRootPath": "C:\\Users\\ALMUNO\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P006 Repaso Entrada y salida\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6374C626-935D-48B4-A406-03184A1EF0D2}|P006 Repaso Entrada y salida\\P006 Repaso Entrada y salida.vcxproj|C:\\Users\\ALUMNO\\Desktop\\NO BORRAR\\Fundamentos_Progra_zap1199\\P006 Repaso Entrada y salida\\P006 Repaso Entrada y salida\\P006 Repaso Entrada y salida.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{6374C626-935D-48B4-A406-03184A1EF0D2}|P006 Repaso Entrada y salida\\P006 Repaso Entrada y salida.vcxproj|C:\\Users\\ALMUNO\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P006 Repaso Entrada y salida\\P006 Repaso Entrada y salida\\P006 Repaso Entrada y salida.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6374C626-935D-48B4-A406-03184A1EF0D2}|P006 Repaso Entrada y salida\\P006 Repaso Entrada y salida.vcxproj|solutionrelative:P006 Repaso Entrada y salida\\P006 Repaso Entrada y salida.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,17 +20,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "P006 Repaso Entrada y salida.cpp",
-              "DocumentMoniker": "C:\\Users\\ALUMNO\\Desktop\\NO BORRAR\\Fundamentos_Progra_zap1199\\P006 Repaso Entrada y salida\\P006 Repaso Entrada y salida\\P006 Repaso Entrada y salida.cpp",
+              "DocumentMoniker": "C:\\Users\\ALMUNO\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P006 Repaso Entrada y salida\\P006 Repaso Entrada y salida\\P006 Repaso Entrada y salida.cpp",
               "RelativeDocumentMoniker": "P006 Repaso Entrada y salida\\P006 Repaso Entrada y salida.cpp",
-              "ToolTip": "C:\\Users\\ALUMNO\\Desktop\\NO BORRAR\\Fundamentos_Progra_zap1199\\P006 Repaso Entrada y salida\\P006 Repaso Entrada y salida\\P006 Repaso Entrada y salida.cpp",
+              "ToolTip": "C:\\Users\\ALMUNO\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P006 Repaso Entrada y salida\\P006 Repaso Entrada y salida\\P006 Repaso Entrada y salida.cpp",
               "RelativeToolTip": "P006 Repaso Entrada y salida\\P006 Repaso Entrada y salida.cpp",
-<<<<<<< Updated upstream
-              "ViewState": "AQIAACQAAAAAAAAAAAAAAFwAAAAQAAAA",
-=======
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
->>>>>>> Stashed changes
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAFwAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-07T05:52:26.149Z",
+              "WhenOpened": "2024-10-18T13:34:59.698Z",
               "EditorCaption": ""
             }
           ]

@@ -1,5 +1,5 @@
 // P008 Bucles (WHILE-DO WHILE-FOR).cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
-//
+//Sebastian selvas garcia
 
 #include <iostream>
 
@@ -9,16 +9,19 @@ int main()
     do
     {
         std::cout << "Hola ingresa un numero no mayor a 100\n";
+        std::cout << "Para salir ingresa un numero superior a 100 " << std::endl;
         std::cin >> num;
     } while (num <= 99);
-    
+    std::cout << "acabas de salir del do while " << std::endl;
+    num = 0;
     while (num <= 100)
     {
-        std::cout << "Tu numero es " << num << std::endl;
-        system("pause");
+        std::cout << "Estas dentro del while " << std::endl;
+        std::cout << "Tu numero es " << num << " Para salir pon un numero mayor a 100 y para no salir, no lo hagas " <<  std::endl;
         std::cin >> num;
+        system("pause");
     }
-    std::cout << "Lo graste salir del bucle " << std::endl;
+    std::cout << "Lograste salir del bucle " << std::endl;
     system("pause");
     system("cls");
 
