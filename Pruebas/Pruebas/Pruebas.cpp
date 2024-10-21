@@ -7,8 +7,23 @@
 
 int main()
 {
+    int num;
+    std::cout << "Ingrese un numero" << std::endl; 
+    std::cin >> num;
+    std::cout << num << " Hola " << std::endl;
+
+    bool ver;
+    std::cin >> ver;
+
     float numero = 0;
-    std::cout << "Hello World!\n";
+    std::cin >> numero;
+
+    std::cout << numero << ver << std::endl;
+ /*
+ Demostrar cómo afecta a la ejecución del programa que el usuario declare un 
+ entero antes que un flotante o un booleano después de un carácter.
+ */
+    std::cout << " Hello World!\n";
     
 }
 
