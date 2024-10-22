@@ -11,6 +11,7 @@ Películas
 */
 
 #include <iostream>
+#include<locale.h>
 
 int main()
 {
@@ -27,6 +28,23 @@ int main()
 	bool airelibre;
 	bool fisico;
 	bool hielo;
+	bool puntuacion;
+	bool alto;
+	bool aje;
+	bool patadas;
+	bool bra;
+	bool bailar;
+	bool cintas;
+	bool pelblanc;
+	bool pelotin;
+	bool hilos;
+	bool gordo;
+	bool bofe;
+	bool comp;
+	bool mesa;
+	bool palo;
+
+	setlocale(LC_ALL, "en_MX.UTF-8");
 
     std::cout << "Vamos a adivinar tu deporte\n";
 	std::cout << "Usa balon?\n";
@@ -47,16 +65,69 @@ int main()
 				{
 					std::cout << "Es en hielo??\n";
 					std::cin >> hielo;
+					if (hielo == true)
+					{
+						std::cout << "Lanzan con la mano el balon??\n";
+						std::cin >> hielo;
+						if (hielo == true)
+						{
+							std::cout << "Tu deporte es el curling\n";
+						}
+						else
+						{
+							std::cout << "Tu deporte es el hockey\n";
+						}
+					}
+					else
+					{
+						std::cout << "Tu deporte es el futball\n";
+					}
 				}
 			
 		}
 		else
 		{
-			std::cout << "El deporte tiene una red em medio de la cancha?\n";
+			std::cout << "El deporte tiene una red en medio de la cancha?\n";
 			std::cin >> red;
 			if (red == true)
 			{
-				std::cout << "Tu juego es volleyboll\n";
+				std::cout << "Usa una pelota pequeña??\n";
+				std::cin >> pelotin;
+				if (pelotin == true)
+				{
+					std::cout << "Usa una pelota blanca??\n";
+					std::cin >> pelblanc;
+					if (pelblanc == true)
+					{
+						std::cout << "Tu deporte es badminton\n";
+					}
+					else
+					{
+						std::cout << "Su raqueta usa hilos??\n";
+						std::cin >> hilos;
+						if (hilos == true)
+						{
+							std::cout << "Tu deporte es tennis\n";
+						}
+						else
+						{
+							std::cout << "Se necesita una mesa??\n";
+							std::cin >> mesa;
+							if (mesa == true)
+							{
+								std::cout << "Tu deporte es pingpong\n";
+							}
+							else
+							{
+								std::cout << "Tu deporte es padel\n";
+							}
+						}
+					}
+				}
+				else
+				{
+					std::cout << "Tu deporte es volleyball\n";
+				}
 			}
 			else
 			{
@@ -72,7 +143,16 @@ int main()
 					}
 					else
 					{
-						std::cout << "Tu deporte es baseboll\n";
+						std::cout << "Se utiliza un palo plano??\n";
+						std::cin >> palo;
+						if (palo == true)
+						{
+							std::cout << "Tu depprte es cricket\n";
+						}
+						else
+						{
+							std::cout << "Tu deporte es baseball\n";
+						}
 					}
 				}
 				else
@@ -130,17 +210,169 @@ int main()
 							}
 						}
 					}
+					else
+					{
+						std::cout << "Tu deporte es kayak\n";
+					}
 				}
 			}
 			else
 			{
-
+				std::cout << "Se gana por puntuación??\n";
+				std::cin >> puntuacion;
+				if (puntuacion == true)
+				{
+					std::cout << "Tienes que saltar de algun lugar alto??\n";
+					std::cin >> alto;
+					if (alto == true)
+					{
+						std::cout << "Tu deporte es clavados\n";
+					}
+					else
+					{
+						std::cout << "Tu deporte es nado sincronizado o artistica\n";
+					}
+				}
+				else
+				{
+					std::cout << "Tu deporte es natación\n";
+				}
 			}
 		}
 		else
 		{
 			std::cout << "Tiene contacto fisico??\n";
-			<      
+			std::cin >> fisico;
+			if (fisico == true)
+			{
+				std::cout << "Se puede usar patadas??\n";
+				std::cin >> patadas;
+				if (patadas == true)
+				{
+					std::cout << "Parece que estan bailando??\n";
+					std::cin >> bailar;
+					if (bailar == true)
+					{
+						std::cout << "Tu deporte es capoeira\n";
+					}
+					else
+					{
+						std::cout << "Tu deporte viene de Brazil\n";
+						std::cin >> bra;
+						if (bra == true)
+						{
+							std::cout << "Tiene rangos por cintas??\n";
+							std::cin >> cintas;
+							if (cintas == true)
+							{
+								std::cout << "Tu deporte es Jiujitsu Brazilian\n";
+							}
+							else
+							{
+								std::cout << "Estos son los posibles deportes:Vale Tudo, Kombato y Luta Livre\n";
+							}
+						}
+						else
+						{
+							std::cout << "Tiene rangos por cintas??\n";
+							std::cin >> cintas;
+							if (cintas == true)
+							{
+								std::cout << "Es uno de estos dos: Judo, Kárate, Taekwondo\n";
+							}
+							else
+							{
+								std::cout << "Tienes que estar muy rellenito de amor o rechoncho o sobrepasadito o masivo o excesivo O se recomienda??\n";
+								std::cin >> gordo;
+								if (gordo == true)
+								{
+									std::cout << "Tienes que dar bofetadas??\n";
+									std::cin >> bofe;
+									if (bofe == true)
+									{
+										std::cout << "Tu deporte es Power Slap o Slap Fight\n";
+									}
+									else
+									{
+										std::cout << "Tu deporte es sumo\n";
+									}
+								}
+							}
+						}
+					}
+				}
+				else
+				{
+					std::cout << "Juegas ajedrez en el??\n";
+					std::cin >> aje;
+					if (aje == true)
+					{
+						std::cout << "Tu deporte es chessboxing\n";
+					}
+					else
+					{
+						std::cout << "Tu deporte es box\n";
+					}
+				}
+			}
+			else
+			{
+				std::cout << "Es en la nieve\n";
+				std::cin >> hielo;
+				if (hielo == true)
+				{
+					std::cout << "Te mantienes de pie??\n";
+					std::cin >> hielo;
+					if (hielo == true)
+					{
+						std::cout << "Es snowboarding o skii\n";
+					}
+					else
+					{
+						std::cout << "Tu deporte es Skeleton\n";
+					}
+				}
+				else
+				{
+					std::cout << "Usa un liston??\n";
+					std::cin >> cintas;
+					if (cintas == true)
+					{
+						std::cout << "Tu deporte es gimnasia ritmica\n";
+					}
+					else
+					{
+						std::cout << "Se baila en el??\n";
+						std::cin >> bailar;
+						if (bailar == true)
+						{
+							std::cout << "Se puede competir en el??\n";
+							std::cin >> comp;
+							if (comp == true)
+							{
+								std::cout << "Proviene de la calle\n";
+								std::cin >> bailar;
+								if (bailar == true)
+								{
+									std::cout << "Tu deporte es brakedance\n";
+								}
+								else
+								{
+									std::cout << "Tu deporte es: Tango, Salsa. Merengue. etc...\n";
+								}
+							}
+							else
+							{
+								std::cout << "Tu deporte es zumba\n";
+							}
+						}
+						else
+						{
+							std::cout << "Tu deporte es el gym\n";
+						}
+
+				}
+			}
 		}
 	}
 
