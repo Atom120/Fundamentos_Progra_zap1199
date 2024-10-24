@@ -23,7 +23,7 @@ int main()
                     system("pause");
                 }
 
-                std::cout << "Quieres salir?? \n";
+                std::cout << "Quieres salir?? 0 para continuar y otro numero entero para salir \n";
                 std::cin >> con;
     }
     std::cout << "Ahora vamor a contar hasta 100\n";
