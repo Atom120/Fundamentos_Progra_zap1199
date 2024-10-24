@@ -15,7 +15,7 @@ Películas
 
 int main()
 {
-    bool balon;
+	bool balon;
 	bool porteria;
 	bool agua;
 	bool red;
@@ -46,44 +46,44 @@ int main()
 
 	setlocale(LC_ALL, "en_MX.UTF-8");
 
-    std::cout << "Vamos a adivinar tu deporte\n";
-	std::cout << "Usa balon?\n";
-	std::cin >> balon; 
+	std::cout << "Vamos a adivinar tu deporte\n";
+	std::cout << "Usa balon o pelota?\n";
+	std::cin >> balon;
 	if (balon == true)
 	{
 		std::cout << "Usa porteria?\n";
 		std::cin >> porteria;
 		if (porteria == true)
 		{
-				std::cout << "Es en el agua?\n";
-				std::cin >> agua;
-				if (agua == true)
+			std::cout << "Es en el agua?\n";
+			std::cin >> agua;
+			if (agua == true)
+			{
+				std::cout << "Tu deporte es waterpolo\n";
+			}
+			else
+			{
+				std::cout << "Es en hielo??\n";
+				std::cin >> hielo;
+				if (hielo == true)
 				{
-					std::cout << "Tu deporte es waterpolo\n";
-				}
-				else
-				{
-					std::cout << "Es en hielo??\n";
+					std::cout << "Lanzan con la mano el balon??\n";
 					std::cin >> hielo;
 					if (hielo == true)
 					{
-						std::cout << "Lanzan con la mano el balon??\n";
-						std::cin >> hielo;
-						if (hielo == true)
-						{
-							std::cout << "Tu deporte es el curling\n";
-						}
-						else
-						{
-							std::cout << "Tu deporte es el hockey\n";
-						}
+						std::cout << "Tu deporte es el curling\n";
 					}
 					else
 					{
-						std::cout << "Tu deporte es el futball\n";
+						std::cout << "Tu deporte es el hockey\n";
 					}
 				}
-			
+				else
+				{
+					std::cout << "Tu deporte es el futball\n";
+				}
+			}
+
 		}
 		else
 		{
@@ -147,7 +147,16 @@ int main()
 						std::cin >> palo;
 						if (palo == true)
 						{
-							std::cout << "Tu depprte es cricket\n";
+							std::cout << "Se utiliza un animal??\n";
+							std::cin >> palo;
+							if (palo == true)
+							{
+								std::cout << "Tu deporte es el polo\n";
+							}
+							else
+							{
+								std::cout << "Tu deporte es el cricket\n";
+							}
 						}
 						else
 						{
@@ -167,19 +176,19 @@ int main()
 	{
 		std::cout << "Es en el agua?\n";
 		std::cin >> agua;
-		if (true==agua)
+		if (true == agua)
 		{
 			std::cout << "Usas alguna herramienta?\n";
 			std::cin >> herramienta;
-			if (true==herramienta)
+			if (true == herramienta)
 			{
 				std::cout << "Tienes que ir de pie??\n";
 				std::cin >> pie;
-				if (true==pie)
+				if (true == pie)
 				{
 					std::cout << "Usa una vela??\n";
 					std::cin >> vela;
-					if (true==pie)
+					if (true == pie)
 					{
 						std::cout << "Tu deporte es windsurf\n";
 					}
@@ -192,15 +201,15 @@ int main()
 				{
 					std::cout << "Usa un barco??\n";
 					std::cin >> barco;
-					if (true==barco)
+					if (true == barco)
 					{
 						std::cout << "Vuelas en el?\n";
 						std::cin >> volar;
-						if (true==volar)
+						if (true == volar)
 						{
 							std::cout << "Usas un paracaidas??\n";
 							std::cin >> para;
-							if (true==para)
+							if (true == para)
 							{
 								std::cout << "Tu deporte es paracaidismo en el agua\n";
 							}
@@ -317,7 +326,7 @@ int main()
 			}
 			else
 			{
-				std::cout << "Es en la nieve\n";
+				std::cout << "Es en la nieve??\n";
 				std::cin >> hielo;
 				if (hielo == true)
 				{
@@ -371,10 +380,11 @@ int main()
 							std::cout << "Tu deporte es el gym\n";
 						}
 
+					}
 				}
 			}
 		}
-	}
 
+	}
 }
 
