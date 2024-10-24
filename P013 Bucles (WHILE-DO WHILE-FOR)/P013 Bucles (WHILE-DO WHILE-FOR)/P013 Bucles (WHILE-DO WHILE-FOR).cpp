@@ -15,12 +15,15 @@ int main()
     {
         if (ato == ususario)
         {
-            std::cout << "Ya entratse \n";
+            std::cout << "Por favor vuelve a ingresar el ususario \n";
+            std::cin >> ato;
+   
         }
         else
         {
             std::cout << "Por favor ingresa el ususario coreccto\n";
             std::cin >> ato;
+
         }
     } while (ato != ususario);
 }
