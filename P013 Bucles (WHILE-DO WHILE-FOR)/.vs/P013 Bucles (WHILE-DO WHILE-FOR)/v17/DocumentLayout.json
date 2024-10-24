@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ALMUNO\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P013 Bucles (WHILE-DO WHILE-FOR)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13285635-81B6-4331-B60C-BE68DA22A579}|P013 Bucles (WHILE-DO WHILE-FOR)\\P013 Bucles (WHILE-DO WHILE-FOR).vcxproj|C:\\Users\\ALMUNO\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P013 Bucles (WHILE-DO WHILE-FOR)\\P013 Bucles (WHILE-DO WHILE-FOR)\\P013 Bucles (WHILE-DO WHILE-FOR).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{13285635-81B6-4331-B60C-BE68DA22A579}|P013 Bucles (WHILE-DO WHILE-FOR)\\P013 Bucles (WHILE-DO WHILE-FOR).vcxproj|solutionrelative:P013 Bucles (WHILE-DO WHILE-FOR)\\P013 Bucles (WHILE-DO WHILE-FOR).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "P013 Bucles (WHILE-DO WHILE-FOR).cpp",
+              "DocumentMoniker": "C:\\Users\\ALMUNO\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P013 Bucles (WHILE-DO WHILE-FOR)\\P013 Bucles (WHILE-DO WHILE-FOR)\\P013 Bucles (WHILE-DO WHILE-FOR).cpp",
+              "RelativeDocumentMoniker": "P013 Bucles (WHILE-DO WHILE-FOR)\\P013 Bucles (WHILE-DO WHILE-FOR).cpp",
+              "ToolTip": "C:\\Users\\ALMUNO\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P013 Bucles (WHILE-DO WHILE-FOR)\\P013 Bucles (WHILE-DO WHILE-FOR)\\P013 Bucles (WHILE-DO WHILE-FOR).cpp",
+              "RelativeToolTip": "P013 Bucles (WHILE-DO WHILE-FOR)\\P013 Bucles (WHILE-DO WHILE-FOR).cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-24T13:12:32.718Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
