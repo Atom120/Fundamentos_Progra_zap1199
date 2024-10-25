@@ -2,29 +2,124 @@
 //
 
 #include <iostream>
-#include <math.h>
-
+#include<locale.h>
 
 int main()
 {
-    int num;
-    std::cout << "Ingrese un numero" << std::endl; 
-    std::cin >> num;
-    std::cout << num << " Hola " << std::endl;
+    bool tos;
+    bool fie;
+    bool respirar;
+    setlocale(LC_ALL, "en_MX.UTF-8");
 
-    bool ver;
-    std::cin >> ver;
+        std::cout << "Tienes fiebre??";
 
-    float numero = 0;
-    std::cin >> numero;
+        std::cin >> fie;
 
-    std::cout << numero << ver << std::endl;
- /*
- Demostrar cómo afecta a la ejecución del programa que el usuario declare un 
- entero antes que un flotante o un booleano después de un carácter.
- */
-    std::cout << " Hello World!\n";
-    
+        if (fie == true)
+
+        {
+
+            std::cout << "Tienes tos seca??";
+
+            std::cin >> tos;
+
+            if (tos == true)
+
+            {
+
+                std::cout << "Tienes dificultad para respirar??";
+
+                std::cin >> respirar;
+
+                if (respirar == true)
+
+                {
+
+                    std::cout << "Vaya al hospital";
+
+                }
+
+                else
+
+                {
+
+                    std::cout << "Quédate en tu casa";
+
+                }
+
+            }
+
+            else
+
+            {
+
+                std::cout << "Tienes dificultad para respirar??";
+
+                std::cin >> respirar;
+
+                if (respirar == true)
+
+                {
+                    std::cout << "Quédate en tu casa";
+                }
+                else
+                {
+                    std::cout << "Puede ser solo gripa";
+                }
+
+
+            }
+
+        }
+
+        else
+
+        {
+
+            std::cout << "Tienes tos seca??";
+
+            std::cin >> tos;
+
+            if (tos == true)
+
+            {
+
+                std::cout << "Tienes dificultad para respirar??";
+
+                std::cin >> respirar;
+                if (respirar == true)
+                {
+                    std::cout << "Quédate en tu casa";
+                }
+                else
+                {
+                    std::cout << "Puede ser solo gripa";
+                }
+
+            }
+
+            else
+
+            {
+
+                std::cout << "Tienes dificultad para respirar??";
+
+                std::cin >> respirar;
+
+                if (respirar == true)
+
+                {
+
+                    std::cout << "Puede ser solo gripa";
+
+                }
+                else
+                {
+                    std::cout << "Usdted esta sano";
+                }
+            }
+
+        }
 }
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
