@@ -7,25 +7,31 @@
 
 int main()
 {
+    std::string us;
     std::string ato;
-    std::string ususario = "atom";
+    std::string usuario = "atom";
     std::cout << "Hola ingresa tu usuario!\n";
     std::cin >> ato;
+    std::cout << "Escribe cualquier palabra" << std::endl;
+    std::cin >> us;
     do
     {
-        if (ato == ususario)
+        if (ato == usuario)
         {
             std::cout << "Por favor vuelve a ingresar el ususario \n";
             std::cin >> ato;
-   
+            system("pause");
+            system("cls");
         }
         else
         {
-            std::cout << "Por favor ingresa el ususario coreccto\n";
+            std::cout << "Por favor ingresa el usario corecto\n";
             std::cin >> ato;
-
+            system("pause");
+            system("cls");
         }
-    } while (ato != ususario);
+    } while (ato != us);
+
 }
 
 /*
