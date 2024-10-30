@@ -4,6 +4,7 @@
 #include <iostream>
 #include <stdlib.h>
 
+
 int main()
 {
     int basico = 25;
@@ -16,17 +17,22 @@ int main()
     bool opcion2;
     int v1;
     int v2;
+    int cura = 30;
+    int escudo = 20;
+
 
     std::cout << "Hola entrenador elige tu pokemnon\n";
     std::cout << "1.Charmander 2.Froakie 3.Gastly\n";
     std::cin >> opcion;
+    system("cls");
 
     switch(opcion)
     {
     case 1:
         std::cout << "Felicidades tienes a Charmander\n";
-        std::cout << "Quiere entrar en una batalla pokemon\n";
+        std::cout << "Quiere entrar en una batalla pokemon\n 1(si)/0(no)\n";
         std::cin >> opcion2;
+        system("cls");
         if (opcion2)
         {
             std::cout << "Te enfrentas a otro entrenador\n";
@@ -34,77 +40,82 @@ int main()
             do
             { 
             std::cout << "Que quieres hacer??\n";
-            std::cout << "1.Basico 2.Especial 3.Huir 4.Objetos\n";
+            std::cout << "1.Basico (25 atk)\n2.Especial (45 atk)\n3.Huir\n4.Objetos\n";
             std::cin >> opcion;
             switch (opcion)
             {
             case 1:
                 vida-=basico;
-                std::cout << "Ahora tiene " << vida << std::endl;
+                std::cout << "Ahora tiene " << vida << " hp" << std::endl;
                 break;
             
             case 2:
                 vida -= especial;
-                std::cout << "Ahora tiene " << vida << std::endl;
+                std::cout << "Ahora tiene " << vida << " hp" << std::endl;
                 break;
 
             case 3:
-                std::cout << "Te saliste de la batalla\n";
+                std::cout << "Para salir presione 0\n";
+                vida == 0;
                 break;
 
             case 4:
                     std::cout << "Que quiere usar\n";
-                    std::cout << "1.Curacion 2.Escudo\n";
+                    std::cout << "1.Curacion (30 hp) \n 2.Escudo (20 hp)\n";
                     std::cin >> opcion;
                     switch (opcion)
                     {
                     case 1:
-                        vida2 + 30;
-                        std::cout << "Tu vida es " << vida2;
+                        vida2 + cura;
+                        std::cout << "Te curaste " <<  cura << std::endl;
+                        std::cout << "Tu vida es " << vida2 << " hp \n";
                         break;
                     case 2:
-                        vida2 + 20;
-                        std::cout << "Tu vida es " << vida2;
+                        escudo;
+                        std::cout << "Tienes un escudo " << std::endl;
+                        std::cout << "Tu vida es " << vida2 << " hp \n";
                         break;
                     }
                     break;
             }
+            
             std::cout << "Es el turno del enemigo\n";
-            std::cout << "Ahora tienes  " << vida2 << std::endl;
-            v1 = rand()%5;
+            v1 = rand()%4;
             switch (v1)
             {
             case 1:
                 vida2 -= basico;
-                std::cout << "Ahora tienes " << vida2 << std::endl;
+                std::cout << "Tu oponente te ataco " << std::endl;
+                std::cout << "Te hizo " << basico << " de daño" <<std::endl;
+                std::cout << "Tu vida es " << vida2 << std::endl;
                 break;
 
             case 2:
                 vida2 -= especial;
                 std::cout << "Tu oponente te ataco\n";
-                std::cout << "Ahora tienes " << vida2 << std::endl;
+                std::cout << "Te hizo " << especial << " de daño" << std::endl;
+                std::cout << "tu vida es " << vida2 << std::endl;
                 break;
 
             case 3:
-                std::cout << "Te saliste de la batalla\n";
-                break;
-
-            case 4:
                 v2 = rand() % 3;
                 switch (v2)
                 {
                 case 1:
-                    vida2 + 30;
-                    std::cout << "Su vida es " << vida2 << std::endl;
+                    vida2 + cura;
+                    std::cout << "El enemigo se curo " << cura << std::endl;
+                    std::cout << "Vida enemiga " << vida2 << std::endl;
                     break;
                 case 2:
-                    vida2 + 20;
-                    std::cout << "Su vida es " << vida2 << std::endl;
+                    escudo;
+                    std::cout << "El enemigo se puso un escudo" << std::endl;
+                    std::cout << "Vida enemiga " << vida2 << " (simbolo de un escudo)" << std::endl;
                     break;
                 }
                 break;
             }
-            } while (vida >= 0, vida2>=0);
+            
+            } while (vida >= 0 || vida2 >= 0);
         }
         else
         {
@@ -220,12 +231,34 @@ int main()
     }
 }
 
-// Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
-// Depurar programa: F5 o menú Depurar > Iniciar depuración
+/*
+* class Personaje:
+    def __init__(self, nombre, vida):
+        self.nombre = nombre
+        self.vida = vida
 
-// Sugerencias para primeros pasos: 1. Use la ventana del Explorador de soluciones para agregar y administrar archivos
-//   2. Use la ventana de Team Explorer para conectar con el control de código fuente
-//   3. Use la ventana de salida para ver la salida de compilación y otros mensajes
-//   4. Use la ventana Lista de errores para ver los errores
-//   5. Vaya a Proyecto > Agregar nuevo elemento para crear nuevos archivos de código, o a Proyecto > Agregar elemento existente para agregar archivos de código existentes al proyecto
-//   6. En el futuro, para volver a abrir este proyecto, vaya a Archivo > Abrir > Proyecto y seleccione el archivo .sln
+    def recibir_dano(self, dano, usar_escudo=False):
+        if usar_escudo:
+            dano *= 0.8  # Reducir el daño en un 20%
+        self.vida -= dano
+        self.vida = max(self.vida, 0)  # Asegurarse de que la vida no sea negativa
+        print(f"{self.nombre} ha recibido {dano:.2f} de daño. Vida restante: {self.vida:.2f}")
+
+    def esta_vivo(self):
+        return self.vida > 0
+
+# Ejemplo de uso
+jugador = Personaje("Guerrero", 100)
+
+# Simular recibir daño sin escudo
+jugador.recibir_dano(30)
+
+# Simular recibir daño con escudo
+jugador.recibir_dano(30, usar_escudo=True)
+
+# Verificar si el jugador está vivo
+if jugador.esta_vivo():
+    print(f"{jugador.nombre} sigue vivo.")
+else:
+    print(f"{jugador.nombre} ha caído en batalla.")
+*/
