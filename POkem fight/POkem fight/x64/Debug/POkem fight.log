@@ -1,12 +1,2 @@
 ﻿  POkem fight.cpp
-C:\Users\ALUMNO\Desktop\NO_BORRAR_PLOX\Fundamentos_Progra_zap1199\POkem fight\POkem fight\POkem fight.cpp(55,22): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
-C:\Users\ALUMNO\Desktop\NO_BORRAR_PLOX\Fundamentos_Progra_zap1199\POkem fight\POkem fight\POkem fight.cpp(65,31): warning C4552: "+": el resultado de la expresión no se usa
-C:\Users\ALUMNO\Desktop\NO_BORRAR_PLOX\Fundamentos_Progra_zap1199\POkem fight\POkem fight\POkem fight.cpp(69,31): warning C4552: "+": el resultado de la expresión no se usa
-C:\Users\ALUMNO\Desktop\NO_BORRAR_PLOX\Fundamentos_Progra_zap1199\POkem fight\POkem fight\POkem fight.cpp(96,27): warning C4552: "+": el resultado de la expresión no se usa
-C:\Users\ALUMNO\Desktop\NO_BORRAR_PLOX\Fundamentos_Progra_zap1199\POkem fight\POkem fight\POkem fight.cpp(100,27): warning C4552: "+": el resultado de la expresión no se usa
-C:\Users\ALUMNO\Desktop\NO_BORRAR_PLOX\Fundamentos_Progra_zap1199\POkem fight\POkem fight\POkem fight.cpp(150,27): warning C4552: "+": el resultado de la expresión no se usa
-C:\Users\ALUMNO\Desktop\NO_BORRAR_PLOX\Fundamentos_Progra_zap1199\POkem fight\POkem fight\POkem fight.cpp(154,27): warning C4552: "+": el resultado de la expresión no se usa
-C:\Users\ALUMNO\Desktop\NO_BORRAR_PLOX\Fundamentos_Progra_zap1199\POkem fight\POkem fight\POkem fight.cpp(202,27): warning C4552: "+": el resultado de la expresión no se usa
-C:\Users\ALUMNO\Desktop\NO_BORRAR_PLOX\Fundamentos_Progra_zap1199\POkem fight\POkem fight\POkem fight.cpp(206,27): warning C4552: "+": el resultado de la expresión no se usa
-C:\Users\ALUMNO\Desktop\NO_BORRAR_PLOX\Fundamentos_Progra_zap1199\POkem fight\POkem fight\POkem fight.cpp(12,10): warning C4101: 'huir': variable local sin referencia
-  POkem fight.vcxproj -> C:\Users\ALUMNO\Desktop\NO_BORRAR_PLOX\Fundamentos_Progra_zap1199\POkem fight\x64\Debug\POkem fight.exe
+  POkem fight.vcxproj -> C:\Users\Cleve\OneDrive\Escritorio\no borrar pls\Fundamentos_Progra_zap1199\POkem fight\x64\Debug\POkem fight.exe

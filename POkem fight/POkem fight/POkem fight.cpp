@@ -3,232 +3,110 @@
 
 #include <iostream>
 #include <stdlib.h>
-
+#include <string>
 
 int main()
 {
-    int basico = 25;
-    int especial = 45;
-    int objeto = 30;
-    bool huir;
+    std::string basico;
+    std::string especial;
+    std::string cura;
+    std::string escudo;
+
+    std::string basico2;//Del enemigo
+    std::string especial2;
+    std::string cura2;
+    std::string escudo2;
+
+    int vida2 = 200;
     int vida = 200;
+
+    int daniob = 0;
+    int danioe = 0;
+    int tipo = 0;//agua=1,fuego=2,oscuridad=3,
+    int tipo2 = 0;//tipo del enemigo
+
+    bool huir = false;
     int opcion;
-    int vida2 =200;
-    bool opcion2;
-    int v1;
-    int v2;
-    int cura = 30;
-    int escudo = 20;
 
 
-    std::cout << "Hola entrenador elige tu pokemnon\n";
-    std::cout << "1.Charmander 2.Froakie 3.Gastly\n";
+
+    std::cout << "Hola entrenador\n";
+    std::cout << "Quieres juegar <3?, si, si pon 1\n";
     std::cin >> opcion;
-    system("cls");
-
-    switch(opcion)
+    if (opcion == 1)
     {
-    case 1:
-        std::cout << "Felicidades tienes a Charmander\n";
-        std::cout << "Quiere entrar en una batalla pokemon\n 1(si)/0(no)\n";
-        std::cin >> opcion2;
+        std::cout << "Para empezar elige tu pochumon\n";
+        std::cout << "1.Charmander 2.Froakie 3.Gastly\n";
+        std::cin >> opcion;
         system("cls");
-        if (opcion2)
+
+        switch (opcion)
         {
-            std::cout << "Te enfrentas a otro entrenador\n";
-            std::cout << "Su pokemon es cyndaquil\n";
-            do
-            { 
-            std::cout << "Que quieres hacer??\n";
-            std::cout << "1.Basico (25 atk)\n2.Especial (45 atk)\n3.Huir\n4.Objetos\n";
-            std::cin >> opcion;
-            switch (opcion)
-            {
-            case 1:
-                vida-=basico;
-                std::cout << "Ahora tiene " << vida << " hp" << std::endl;
-                break;
-            
-            case 2:
-                vida -= especial;
-                std::cout << "Ahora tiene " << vida << " hp" << std::endl;
-                break;
+        case 1:
+            tipo = 2;
+            daniob = 20;
+            danioe = 40;
 
-            case 3:
-                std::cout << "Para salir presione 0\n";
-                vida == 0;
-                break;
+            basico = "Bola de fuego\n";
+            especial = "Cola de fuego\n";
 
-            case 4:
-                    std::cout << "Que quiere usar\n";
-                    std::cout << "1.Curacion (30 hp) \n 2.Escudo (20 hp)\n";
-                    std::cin >> opcion;
-                    switch (opcion)
-                    {
-                    case 1:
-                        vida2 + cura;
-                        std::cout << "Te curaste " <<  cura << std::endl;
-                        std::cout << "Tu vida es " << vida2 << " hp \n";
-                        break;
-                    case 2:
-                        escudo;
-                        std::cout << "Tienes un escudo " << std::endl;
-                        std::cout << "Tu vida es " << vida2 << " hp \n";
-                        break;
-                    }
-                    break;
-            }
-            
-            std::cout << "Es el turno del enemigo\n";
-            v1 = rand()%4;
-            switch (v1)
-            {
-            case 1:
-                vida2 -= basico;
-                std::cout << "Tu oponente te ataco " << std::endl;
-                std::cout << "Te hizo " << basico << " de daño" <<std::endl;
-                std::cout << "Tu vida es " << vida2 << std::endl;
-                break;
+        case 2:
+            daniob = 20;
+            danioe = 40;
 
-            case 2:
-                vida2 -= especial;
-                std::cout << "Tu oponente te ataco\n";
-                std::cout << "Te hizo " << especial << " de daño" << std::endl;
-                std::cout << "tu vida es " << vida2 << std::endl;
-                break;
+            basico = "Burbujas\n";
+            especial = "Shuriken de agua\n";
+        case 3:
+            daniob = 20;
+            danioe = 40;
 
-            case 3:
-                v2 = rand() % 3;
-                switch (v2)
-                {
-                case 1:
-                    vida2 + cura;
-                    std::cout << "El enemigo se curo " << cura << std::endl;
-                    std::cout << "Vida enemiga " << vida2 << std::endl;
-                    break;
-                case 2:
-                    escudo;
-                    std::cout << "El enemigo se puso un escudo" << std::endl;
-                    std::cout << "Vida enemiga " << vida2 << " (simbolo de un escudo)" << std::endl;
-                    break;
-                }
-                break;
-            }
-            
-            } while (vida >= 0 || vida2 >= 0);
-        }
-        else
-        {
-            std::cout << "No vemos\n";
-        }
-        break;
-    case 2:
-        std::cout << "Felicidades tienes a Froakie\n";
-        std::cout << "Quiere entrar en una batalla pokemon\n";
-        std::cin >> opcion2;
-        if (opcion2)
-        {
-            std::cout << "Te enfrentas a otro entrenador\n";
-            std::cout << "Su pokemon es cyndaquil\n";
-            do
-            { 
-            std::cout << "Que quieres hacer??\n";
-            std::cout << "1.Basico 2.Especial 3.Huir 4.Objetos\n";
-            std::cin >> opcion;
-            switch (opcion)
-            {
-            case 1:
-                vida -= basico;
-                std::cout << "Ahora tiene " << vida << std::endl;
-                break;
+            basico = "Mirarte feo\n";
+            especial = "Mirarte más feo\n";
 
-            case 2:
-                vida -= especial;
-                std::cout << "Ahora tiene " << vida << std::endl;
-                break;
-
-            case 3:
-                std::cout << "Te saliste de la batalla\n";
-                break;
-
-            case 4:
-                std::cout << "Que quiere usar\n";
-                std::cout << "1.Curacion 2.Escudo\n";
-                std::cin >> opcion;
-                switch (opcion)
-                {
-                case 1:
-                    vida2 + 30;
-                    std::cout << "Tu vida es " << vida2;
-                    break;
-                case 2:
-                    vida2 + 20;
-                    std::cout << "Tu vida es " << vida2;
-                    break;
-                }
-                break;
-            }
-            } while (vida >= 0);
-        }
-        else
-        {
-            std::cout << "No vemos\n";
-        }
-        break;
-    case 3:
-        std::cout << "Felicidades tienes a Gastly\n";
-        std::cout << "Quiere entrar en una batalla pokemon\n";
-        std::cin >> opcion2;
-        if (opcion2)
-        {
-            std::cout << "Te enfrentas a otro entrenador\n";
-            std::cout << "Su pokemon es cyndaquil\n";
-            do{
-            std::cout << "Que quieres hacer??\n";
-            std::cout << "1.Basico 2.Especial 3.Huir 4.Objetos\n";
-            std::cin >> opcion;
-            switch (opcion)
-            {
-            case 1:
-                vida -= basico;
-                std::cout << "Ahora tiene " << vida << std::endl;
-                break;
-
-            case 2:
-                vida -= especial;
-                std::cout << "Ahora tiene " << vida << std::endl;
-                break;
-
-            case 3:
-                std::cout << "Te saliste de la batalla\n";
-                break;
-
-            case 4:
-                std::cout << "Que quiere usar\n";
-                std::cout << "1.Curacion 2.Escudo\n";
-                std::cin >> opcion;
-                switch (opcion)
-                {
-                case 1:
-                    vida2 + 30;
-                    std::cout << "Tu vida es " << vida2;
-                    break;
-                case 2:
-                    vida2 + 20;
-                    std::cout << "Tu vida es " << vida2;
-                    break;
-                }
-                break;
-            }
-            } while (vida >= 0);
-        }
-        else
-        {
-            std::cout << "No vemos\n";
+            break;
         }
 
-        break;
+        std::cout << "Elige a tu rival\n";
+        std::cout << "1.Pikachu 2.Zarek 3.Nita\n";
+        std::cin >> opcion;
+
+        switch (opcion)
+        {
+        case 1:
+            tipo = 2;
+            daniob = 20;
+            danioe = 40;
+
+            basico = "Rayito\n";
+            especial = "Impactrueno\n";
+            break;
+
+        case 2:
+            daniob = 20;
+            danioe = 40;
+
+            basico = "Gatazo\n";
+            especial = "Ladrar\n";
+            break;
+
+        case 3:
+            daniob = 20;
+            danioe = 40;
+
+            basico = "Terremoto\n";
+            especial = "Osito\n";
+            break;
+        }
+        do
+        {
+
+        } while ((vida >= 0 || vida2 >= 0) && huir != true);
     }
+    else
+    {
+        std::cout << "bye pues:(";
+    }
+
 }
 
 /*
