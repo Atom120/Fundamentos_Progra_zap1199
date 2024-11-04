@@ -1,0 +1,17 @@
+﻿'Practica arreglos 17.exe' (Win32): 'C:\Users\ALMUNO\OneDrive\Escritorio\no borrar pls\Fundamentos_Progra_zap1199\Practica arreglos 17\x64\Debug\Practica arreglos 17.exe' cargado. Símbolos cargados.
+'Practica arreglos 17.exe' (Win32): 'C:\Windows\System32\ntdll.dll' cargado. 
+'Practica arreglos 17.exe' (Win32): 'C:\Windows\System32\kernel32.dll' cargado. 
+'Practica arreglos 17.exe' (Win32): 'C:\Windows\System32\KernelBase.dll' cargado. 
+'Practica arreglos 17.exe' (Win32): 'C:\Windows\System32\msvcp140d.dll' cargado. 
+'Practica arreglos 17.exe' (Win32): 'C:\Windows\System32\vcruntime140d.dll' cargado. 
+'Practica arreglos 17.exe' (Win32): 'C:\Windows\System32\vcruntime140_1d.dll' cargado. 
+'Practica arreglos 17.exe' (Win32): 'C:\Windows\System32\ucrtbased.dll' cargado. 
+El subproceso 24896 terminó con código 0 (0x0).
+'Practica arreglos 17.exe' (Win32): 'C:\Windows\System32\sechost.dll' cargado. 
+'Practica arreglos 17.exe' (Win32): 'C:\Windows\System32\rpcrt4.dll' cargado. 
+'Practica arreglos 17.exe' (Win32): 'C:\Windows\System32\bcrypt.dll' cargado. 
+'Practica arreglos 17.exe' (Win32): 'C:\Windows\System32\kernel.appcore.dll' cargado. 
+'Practica arreglos 17.exe' (Win32): 'C:\Windows\System32\msvcrt.dll' cargado. 
+El subproceso 34656 terminó con código 0 (0x0).
+El subproceso 23984 terminó con código 0 (0x0).
+El programa '[31148] Practica arreglos 17.exe' terminó con código 0 (0x0).
