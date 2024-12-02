@@ -2,38 +2,71 @@
 #include <iostream>
 #include <string>
 #include <algorithm>
+#include<locale.h>
 
 // Función para sumar dos números binarios
 std::string sumaBinarios(std::string a, std::string b) {
-    int n1 = a.length();
-    int n2 = b.length();
 
-    if (n1 < n2) {
-        std::swap(a, b);
-        std::swap(n1, n2);
-    }
-    b.insert(0, n1 - n2, '0');
+    if (a.length() > b.length())
+        return sumaBinarios(b, a);
 
-    std::string resultado = "";
-    int acarreo = 0;
+    int diff = b.length() - a.length();
 
-    for (int i = n1 - 1; i >= 0; i--) {
-        int bitA = a[i] - '0';
-        int bitB = b[i] - '0';
+    std::string padding;
+    for (int i = 0; i < diff; i++)
+        padding.push_back('0');
 
-        int suma = bitA + bitB + acarreo;
-        resultado += (suma % 2) + '0';  // Añadir el bit de la suma
-        acarreo = suma / 2;  // Calcular el acarreo
-    }
+    a = padding + a;
+    std::string res;
+    char carry = '0';
 
-    if (acarreo) 
+    for (int i = a.length() - 1; i >= 0; i--)
     {
-        resultado += '1';
+        // This if condition solves 110 111  
+        // possible cases 
+        if (a[i] == '1' && b[i] == '1')
+        {
+            if (carry == '1')
+                res.push_back('1'), carry = '1';
+            else
+                res.push_back('0'), carry = '1';
+        }
+
+        // This if condition solves 000 001  
+        // possible cases 
+        else if (a[i] == '0' && b[i] == '0')
+        {
+            if (carry == '1')
+                res.push_back('1'), carry = '0';
+            else
+                res.push_back('0'), carry = '0';
+        }
+
+        // This if condition solves 100 101 010  
+        // 011 possible cases 
+        else if (a[i] != b[i])
+        {
+            if (carry == '1')
+                res.push_back('0'), carry = '1';
+            else
+                res.push_back('1'), carry = '0';
+        }
     }
 
-    std::reverse(resultado.begin(), resultado.end());  // Invertir el resultado
-    return resultado;
-}
+    // If at the end their is carry then just   
+    // add it to the result 
+    if (carry == '1')
+        res.push_back(carry);
+    // reverse the result 
+    reverse(res.begin(), res.end());
+
+    // To remove leading zeroes 
+    int index = 0;
+    while (index + 1 < res.length() &&
+        res[index] == '0')
+        index++;
+    return (res.substr(index));
+    }
 
 // Función para restar dos números binarios
 std::string restaBinarios(std::string a, std::string b) {
@@ -142,12 +175,14 @@ std::string complementoA2(std::string binario) {
 }
 
 int main() {
+    setlocale(LC_ALL, "en_MX.UTF-8");
+
     std::string binario1, binario2;
 
-    std::cout << "Introduce el primer número binario: ";
+    std::cout << "Introduce el primer número binario: "<< std::endl;
     std::cin >> binario1;
 
-    std::cout << "Introduce el segundo número binario: ";
+    std::cout << "Introduce el segundo número binario: "<< std::endl;
     std::cin >> binario2;
 
     // Suma

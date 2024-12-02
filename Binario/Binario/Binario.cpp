@@ -5,16 +5,16 @@
 
 std::string binario(int decimal)
 {
-    int binario[8];
+    int binario[16];
 
-    for (int i = 0; i < 8; i++)
+    for (int i = 0; i < 16; i++)
     {
         binario[i] = decimal % 2;//operador modulo para saber si los digitos son par o impar
         decimal /= 2;//valor de decimal dividido entre dos para seguir dividiendo la parte entera del valor
     }
 
     std::cout << "El valor en binario es: ";
-    for (int i = 7; i >= 0; i--)
+    for (int i = 15; i >= 0; i--)
     {
         std::cout << binario[i];
     }
