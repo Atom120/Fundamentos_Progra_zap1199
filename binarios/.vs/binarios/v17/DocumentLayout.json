@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Cleve\\source\\repos\\binarios\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5F7D6208-D201-4AE0-AD31-5E0D6D607761}|binarios\\binarios.vcxproj|C:\\Users\\Cleve\\source\\repos\\binarios\\binarios\\binarios.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5F7D6208-D201-4AE0-AD31-5E0D6D607761}|binarios\\binarios.vcxproj|solutionrelative:binarios\\binarios.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "binarios.cpp",
+              "DocumentMoniker": "C:\\Users\\Cleve\\source\\repos\\binarios\\binarios\\binarios.cpp",
+              "RelativeDocumentMoniker": "binarios\\binarios.cpp",
+              "ToolTip": "C:\\Users\\Cleve\\source\\repos\\binarios\\binarios\\binarios.cpp",
+              "RelativeToolTip": "binarios\\binarios.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-02T02:57:19.584Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

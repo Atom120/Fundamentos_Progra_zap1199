@@ -1,0 +1,8 @@
+﻿  binarios.cpp
+C:\Users\Cleve\source\repos\binarios\binarios\binarios.cpp(8,12): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\Cleve\source\repos\binarios\binarios\binarios.cpp(9,12): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\Cleve\source\repos\binarios\binarios\binarios.cpp(39,12): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\Cleve\source\repos\binarios\binarios\binarios.cpp(40,12): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\Cleve\source\repos\binarios\binarios\binarios.cpp(76,12): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\Cleve\source\repos\binarios\binarios\binarios.cpp(77,12): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+  binarios.vcxproj -> C:\Users\Cleve\source\repos\binarios\binarios\x64\Debug\binarios.exe
