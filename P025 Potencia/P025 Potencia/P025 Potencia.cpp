@@ -3,9 +3,28 @@
 
 #include <iostream>
 
+int potencia(int numero, int exponente)
+{
+    if (exponente==1) return numero;
+    else 
+    {
+        numero=numero*potencia(numero,exponente-1);
+        return numero;
+    }
+    return 0;
+    std::cout << numero;
+}
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    int numero;
+    int exponente;
+
+    std::cout << "Ingrese su numero " << std::endl;
+    std::cin >> numero;
+    std::cout << "Que exponente quieres?" << std::endl;
+    std::cin >> exponente;
+    std::cout << "Tu resultado es " << potencia(numero,exponente);
 }
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
