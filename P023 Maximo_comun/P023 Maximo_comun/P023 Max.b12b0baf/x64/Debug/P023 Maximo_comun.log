@@ -1,0 +1,4 @@
+﻿  P023 Maximo_comun.cpp
+C:\Users\Cleve\source\repos\P023 Maximo_comun\P023 Maximo_comun\P023 Maximo_comun.cpp(32,9): warning C4101: 'residuo': variable local sin referencia
+C:\Users\Cleve\source\repos\P023 Maximo_comun\P023 Maximo_comun\P023 Maximo_comun.cpp(32,18): warning C4101: 'mcd': variable local sin referencia
+  P023 Maximo_comun.vcxproj -> C:\Users\Cleve\source\repos\P023 Maximo_comun\P023 Maximo_comun\x64\Debug\P023 Maximo_comun.exe

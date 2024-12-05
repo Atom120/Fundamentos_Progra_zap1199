@@ -1,0 +1,4 @@
+﻿  P024 Palindromo.cpp
+C:\Users\Cleve\source\repos\P024 Palindromo\P024 Palindromo\P024 Palindromo.cpp(25,17): warning C4267: '=': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\Cleve\source\repos\P024 Palindromo\P024 Palindromo\P024 Palindromo.cpp(14,1): warning C4715: 'palindromo': no todas las rutas de acceso de control devuelven un valor
+  P024 Palindromo.vcxproj -> C:\Users\Cleve\source\repos\P024 Palindromo\P024 Palindromo\x64\Debug\P024 Palindromo.exe

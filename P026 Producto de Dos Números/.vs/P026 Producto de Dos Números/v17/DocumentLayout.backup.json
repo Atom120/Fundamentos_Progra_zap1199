@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P026 Producto de Dos N\u00FAmeros\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BFAB40EC-66D4-4F04-8621-458347356E24}|P026 Producto de Dos N\u00FAmeros\\P026 Producto de Dos N\u00FAmeros.vcxproj|C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P026 Producto de Dos N\u00FAmeros\\P026 Producto de Dos N\u00FAmeros\\P026 Producto de Dos N\u00FAmeros.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFAB40EC-66D4-4F04-8621-458347356E24}|P026 Producto de Dos N\u00FAmeros\\P026 Producto de Dos N\u00FAmeros.vcxproj|solutionrelative:P026 Producto de Dos N\u00FAmeros\\P026 Producto de Dos N\u00FAmeros.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 33,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "P026 Producto de Dos N\u00FAmeros.cpp",
+              "DocumentMoniker": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P026 Producto de Dos N\u00FAmeros\\P026 Producto de Dos N\u00FAmeros\\P026 Producto de Dos N\u00FAmeros.cpp",
+              "RelativeDocumentMoniker": "P026 Producto de Dos N\u00FAmeros\\P026 Producto de Dos N\u00FAmeros.cpp",
+              "ToolTip": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P026 Producto de Dos N\u00FAmeros\\P026 Producto de Dos N\u00FAmeros\\P026 Producto de Dos N\u00FAmeros.cpp",
+              "RelativeToolTip": "P026 Producto de Dos N\u00FAmeros\\P026 Producto de Dos N\u00FAmeros.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-05T21:29:57.166Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 33,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
