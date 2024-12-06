@@ -1,0 +1,47 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P027 Suma de \u201Cn\u201D N\u00FAmeros Naturales\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5E39E106-33F2-4BD7-A68F-473FFD1A1286}|P027 Suma de \u201Cn\u201D N\u00FAmeros Naturales\\P027 Suma de \u201Cn\u201D N\u00FAmeros Naturales.vcxproj|C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P027 Suma de \u201Cn\u201D N\u00FAmeros Naturales\\P027 Suma de \u201Cn\u201D N\u00FAmeros Naturales\\P027 Suma de \u201Cn\u201D N\u00FAmeros Naturales.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5E39E106-33F2-4BD7-A68F-473FFD1A1286}|P027 Suma de \u201Cn\u201D N\u00FAmeros Naturales\\P027 Suma de \u201Cn\u201D N\u00FAmeros Naturales.vcxproj|solutionrelative:P027 Suma de \u201Cn\u201D N\u00FAmeros Naturales\\P027 Suma de \u201Cn\u201D N\u00FAmeros Naturales.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 33,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "P027 Suma de \u201Cn\u201D N\u00FAmeros Naturales.cpp",
+              "DocumentMoniker": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P027 Suma de \u201Cn\u201D N\u00FAmeros Naturales\\P027 Suma de \u201Cn\u201D N\u00FAmeros Naturales\\P027 Suma de \u201Cn\u201D N\u00FAmeros Naturales.cpp",
+              "RelativeDocumentMoniker": "P027 Suma de \u201Cn\u201D N\u00FAmeros Naturales\\P027 Suma de \u201Cn\u201D N\u00FAmeros Naturales.cpp",
+              "ToolTip": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P027 Suma de \u201Cn\u201D N\u00FAmeros Naturales\\P027 Suma de \u201Cn\u201D N\u00FAmeros Naturales\\P027 Suma de \u201Cn\u201D N\u00FAmeros Naturales.cpp",
+              "RelativeToolTip": "P027 Suma de \u201Cn\u201D N\u00FAmeros Naturales\\P027 Suma de \u201Cn\u201D N\u00FAmeros Naturales.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-06T12:06:47.57Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 33,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
