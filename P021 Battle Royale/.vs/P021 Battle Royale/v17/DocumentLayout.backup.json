@@ -14,24 +14,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 33,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "P021 Battle Royale.cpp",
               "DocumentMoniker": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P021 Battle Royale\\P021 Battle Royale\\P021 Battle Royale.cpp",
               "RelativeDocumentMoniker": "P021 Battle Royale\\P021 Battle Royale.cpp",
-              "ToolTip": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P021 Battle Royale\\P021 Battle Royale\\P021 Battle Royale.cpp*",
-              "RelativeToolTip": "P021 Battle Royale\\P021 Battle Royale.cpp*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAQAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P021 Battle Royale\\P021 Battle Royale\\P021 Battle Royale.cpp",
+              "RelativeToolTip": "P021 Battle Royale\\P021 Battle Royale.cpp",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAAAIIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-06T16:16:20.141Z",
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 33,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }
