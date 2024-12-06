@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Cleve\\source\\repos\\P024 Palindromo\\",
+  "WorkspaceRootPath": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P024 Palindromo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7FF3981C-7A7B-400F-A238-0F3DDE7DA3C8}|P024 Palindromo\\P024 Palindromo.vcxproj|C:\\Users\\Cleve\\source\\repos\\P024 Palindromo\\P024 Palindromo\\P024 Palindromo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{7FF3981C-7A7B-400F-A238-0F3DDE7DA3C8}|P024 Palindromo\\P024 Palindromo.vcxproj|C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P024 Palindromo\\P024 Palindromo\\P024 Palindromo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7FF3981C-7A7B-400F-A238-0F3DDE7DA3C8}|P024 Palindromo\\P024 Palindromo.vcxproj|solutionrelative:P024 Palindromo\\P024 Palindromo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -14,7 +14,26 @@
       "DocumentGroups": [
         {
           "DockedWidth": 275,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "P024 Palindromo.cpp",
+              "DocumentMoniker": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P024 Palindromo\\P024 Palindromo\\P024 Palindromo.cpp",
+              "RelativeDocumentMoniker": "P024 Palindromo\\P024 Palindromo.cpp",
+              "ToolTip": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\P024 Palindromo\\P024 Palindromo\\P024 Palindromo.cpp",
+              "RelativeToolTip": "P024 Palindromo\\P024 Palindromo.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-03T14:48:56.34Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 275,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -23,19 +42,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "P024 Palindromo.cpp",
-              "DocumentMoniker": "C:\\Users\\Cleve\\source\\repos\\P024 Palindromo\\P024 Palindromo\\P024 Palindromo.cpp",
-              "RelativeDocumentMoniker": "P024 Palindromo\\P024 Palindromo.cpp",
-              "ToolTip": "C:\\Users\\Cleve\\source\\repos\\P024 Palindromo\\P024 Palindromo\\P024 Palindromo.cpp",
-              "RelativeToolTip": "P024 Palindromo\\P024 Palindromo.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-03T14:48:56.34Z",
-              "EditorCaption": ""
             }
           ]
         }

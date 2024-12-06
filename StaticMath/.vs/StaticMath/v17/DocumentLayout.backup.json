@@ -18,16 +18,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 33,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MathLibrary.h",
               "DocumentMoniker": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\StaticMath\\MathLibrary\\MathLibrary.h",
               "RelativeDocumentMoniker": "MathLibrary\\MathLibrary.h",
-              "ToolTip": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\StaticMath\\MathLibrary\\MathLibrary.h*",
-              "RelativeToolTip": "MathLibrary\\MathLibrary.h*",
+              "ToolTip": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\StaticMath\\MathLibrary\\MathLibrary.h",
+              "RelativeToolTip": "MathLibrary\\MathLibrary.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-06T13:16:35.158Z",
@@ -39,8 +43,8 @@
               "Title": "MathLibrary.cpp",
               "DocumentMoniker": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\StaticMath\\MathLibrary\\MathLibrary.cpp",
               "RelativeDocumentMoniker": "MathLibrary\\MathLibrary.cpp",
-              "ToolTip": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\StaticMath\\MathLibrary\\MathLibrary.cpp*",
-              "RelativeToolTip": "MathLibrary\\MathLibrary.cpp*",
+              "ToolTip": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\StaticMath\\MathLibrary\\MathLibrary.cpp",
+              "RelativeToolTip": "MathLibrary\\MathLibrary.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-06T13:15:58.443Z",
@@ -54,7 +58,7 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
