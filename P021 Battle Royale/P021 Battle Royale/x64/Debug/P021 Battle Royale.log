@@ -1,0 +1,5 @@
+﻿  P021 Battle Royale.cpp
+C:\Users\Cleve\OneDrive\Escritorio\no borrar pls\Fundamentos_Progra_zap1199\P021 Battle Royale\P021 Battle Royale\P021 Battle Royale.cpp(33,9): warning C4101: 'vel1': variable local sin referencia
+C:\Users\Cleve\OneDrive\Escritorio\no borrar pls\Fundamentos_Progra_zap1199\P021 Battle Royale\P021 Battle Royale\P021 Battle Royale.cpp(32,9): warning C4101: 'defensa1': variable local sin referencia
+C:\Users\Cleve\OneDrive\Escritorio\no borrar pls\Fundamentos_Progra_zap1199\P021 Battle Royale\P021 Battle Royale\P021 Battle Royale.cpp(31,9): warning C4101: 'vida1': variable local sin referencia
+  P021 Battle Royale.vcxproj -> C:\Users\Cleve\OneDrive\Escritorio\no borrar pls\Fundamentos_Progra_zap1199\P021 Battle Royale\x64\Debug\P021 Battle Royale.exe
