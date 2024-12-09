@@ -76,7 +76,7 @@ int main()
     std::cout << "*Entras a la herreria*" << std::endl << " Donde te encuntras con una mujer" << std::endl;
     std::cout << "Extraña: Hey tu eres de los nuevos reclutas? Vienes aqui para equiparte no?" << std::endl;
     std::cout << "Elige el arma que quieras" << std::endl;
-    std::cout << "1.Escopeta corta de chatarra y un cuchillo de combate \n2.Rifle de asalto de cerrojo de chatarra \n4.Katana de hierro\n";
+    std::cout << "1.Escopeta corta de chatarra y un cuchillo de combate \n2.Rifle de asalto de cerrojo de chatarra \n";
     std::cin >> opcion;
     switch (opcion) 
     {
@@ -187,7 +187,7 @@ int main()
         if (opcion == 1) {
             std::cout << "Intentas llegar a la ciudad pero vez como los monstruos corren a ella y rompen una parte de ella\n";
             std::cout << " y todo lo que puede hacer es ver como la ciudad es empezada a ser invadida\n";
-            std::cout << "Es ahí cuando recibe un mordisco en su cara\n";
+            std::cout << "Es ahí cuando recibes un mordisco en la cara\n";
             std::cout << "Muriendo en el acto";
         }
         else
@@ -197,31 +197,28 @@ int main()
         std::cout << "Gracías a tu sacrificio, muchas personas lograron llegar y avisar a la ciudad del peligro proximo y así salvarse\n";
         std::cout << "Lo que nadie sabía es que tu arma logro bloquear parte de la exploción\n";
         std::cout << "Lo que mostro que ese brillo que viste fue por algo real \n";
-        std::cout << "Es en ese momento donde el prota decide si quedarse o irse\n";
+        std::cout << "Es en ese momento decides si quedarse o irse\n";
         std::cout << "1.quedarse\n 2.irse";
         std::cin >> opcion;
         if (opcion == 1)
         {
-            std::cout << "Poco a´poco vas ganando conociemiento de como hacer tu trabajo\n";
-            std::cout << "Y te vuelves uno de los mejores carroñeros de la ciudad";
+            std::cout << "Vuelves a la ciudad y\n";
+            std::cout << "Poco a poco vas ganando conociemiento de como hacer tu trabajo\n";
+            std::cout << "Y te vuelves uno de los mejores carroñeros de la ciudad\n";
+            std::cout << "Consiguiendo un gran avance en la ciudad gracías a los recursos que traes de afuera\n";
         }
         else
         {
             std::cout << "Miras por ultima vez hacía atras y dejas todo por ir a una nueva aventuras\n";
             std::cout << "Desapareciendo por completo\n";
-            std::cout << "Y gracias al poder del arma se te las puedes valer fuera de la ciudad fue\n";
-
-        break;
-
-    case 3:
-        std::cout << "*Te acercas al arma*\n Al tocarla se como esta se ilumina en un brillo leve pero intenso\n";
-        std::cout << "Extraña: Que buena elección, por cierto soy Helen\n";
-        std::cout << "Helen: Adios\n\n";
+            std::cout << "Y gracias al poder de tu nueva arma te las puedes valer fuera de la ciudad fue\n";
 
         break;
     }
 
     system("pause");
+    system("cls");
+    std::cout << "Gracías por jugar";
 }
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
