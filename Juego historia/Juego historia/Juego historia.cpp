@@ -28,12 +28,28 @@ struct Player {
     int defense;
 };
 
+int historia(int final)
+{
+    if (final == 1) {
+        std::cout << "Gracías por jugar";
+        return 0;
+    }
+    else
+    {
+        std::cout << "OMG el otro final";
+        return 0;
+    }
+
+};
 
 int main()
 {
     int opcion;
     std::string nombre;
     setlocale(LC_ALL, "en_MX.UTF-8");
+    
+    do
+   {
     
     std::cout << "-Musica epica-" << std::endl;
     std::cout << "Hace mucho tiempo sucedio una catastrofe en todo en mundo \n";
@@ -78,7 +94,7 @@ int main()
     std::cout << "Elige el arma que quieras" << std::endl;
     std::cout << "1.Escopeta corta de chatarra y un cuchillo de combate \n2.Rifle de asalto de cerrojo de chatarra \n";
     std::cin >> opcion;
-    switch (opcion) 
+    switch (opcion)
     {
     case 1:
         std::cout << "*Te acercas al arma*\n Al tocarla ves como esta se ilumina en un brillo leve pero intenso\n";
@@ -90,14 +106,14 @@ int main()
         std::cout << "Peña: Así quedo el mundo despues de la llegada de los monstruos\nAsi que no bajes la guardia\n";
         std::cout << "Llegan a la zona de exploración\nDonde lo prmero que te encuentras es un mostruo parecido a un oso mutado\n";
         std::cout << "*Entras en combate*\n";
-        std::cout << "1.Escopetazo 2.Pegar con el cuchillo";
+        std::cout << "1.Escopetazo 2.Pegar con el cuchillo\n\n";
         std::cin >> opcion;
         if (opcion == 1) {
             std::cout << "Al momento de acercarte al mosntruo este te suelta un zarpazo\n";
             std::cout << "Al ver que no puedes esquivar Peña te empuja y sale herido\n";
             std::cout << "Logran derrotar a la creatura pero con varios de sus miembros heridos\n";
             std::cout << "Aunque parezca insensato decien seguir\n";
-            std::cout << "Por la falta de recursos encontrados\n";
+            std::cout << "Por la falta de recursos encontrados\n\n";
             system("pause");
             system("cls");
             std::cout << "Despues de avanzar por un rato encuentran un edificio extraño y sienten una fuerta presencia\n";
@@ -133,8 +149,8 @@ int main()
 
             }
         }
-        else 
-         {
+        else
+        {
             std::cout << "Sales corriendo al mostruo y se lo clavas en el ojo\n";
             std::cout << "Lo que ayuda mucho a tu aliados y salen con poco heridos del combate\n";
             std::cout << "Siguen avanzado y buscando recursos";
@@ -156,15 +172,15 @@ int main()
             std::cout << "Qué la va a investigar\nPero te pide que te vayas para que nadie sospeche\n";
             std::cout << "Pero es ahi donde te das cuenta de que tiene un boton rojo\n";
             std::cout << "1.Tocar el boton 2.No hacerlo\n";
-            std::cin>>opcion;
-            if (opcion == 1) 
+            std::cin >> opcion;
+            if (opcion == 1)
                 std::cout << "Al tocar el boton rojo se abre un hoyo negro y desaparece la ciudad\n";
-            else 
+            else
                 std::cout << "Despues de un tiempo helen logra decifrar el portal y hacer tecnolgia con esta \n";
             std::cout << "Con esto sigues un carroñero pero poco a poco tu ciudad va teniendo ananvaces\n";
             std::cout << "Gracias a la tecnologia del portal\n";
             std::cout << "Y las exploraciones se vuelven más seguras y con el objetivo de econtrar un nuevo portal\n";
-         }
+        }
         break;
 
     case 2:
@@ -191,34 +207,44 @@ int main()
             std::cout << "Muriendo en el acto";
         }
         else
+        {
             std::cout << "Al ver a tus compañeros pelear decides hacerlo con ellos y arriesgar ru vida\n";
-        std::cout << "Cuando vez que ya no va a ver salida decides tomar unas granadas de otro compañero fallecido\n";
-        std::cout << "Y te sacrificas explotando las granadas\n";
-        std::cout << "Gracías a tu sacrificio, muchas personas lograron llegar y avisar a la ciudad del peligro proximo y así salvarse\n";
-        std::cout << "Lo que nadie sabía es que tu arma logro bloquear parte de la exploción\n";
-        std::cout << "Lo que mostro que ese brillo que viste fue por algo real \n";
-        std::cout << "Es en ese momento decides si quedarse o irse\n";
-        std::cout << "1.quedarse\n 2.irse";
-        std::cin >> opcion;
-        if (opcion == 1)
-        {
-            std::cout << "Vuelves a la ciudad y\n";
-            std::cout << "Poco a poco vas ganando conociemiento de como hacer tu trabajo\n";
-            std::cout << "Y te vuelves uno de los mejores carroñeros de la ciudad\n";
-            std::cout << "Consiguiendo un gran avance en la ciudad gracías a los recursos que traes de afuera\n";
+            std::cout << "Cuando vez que ya no va a ver salida decides tomar unas granadas de otro compañero fallecido\n";
+            std::cout << "Y te sacrificas explotando las granadas\n";
+            std::cout << "Gracías a tu sacrificio, muchas personas lograron llegar y avisar a la ciudad del peligro proximo y así salvarse\n";
+            std::cout << "Lo que nadie sabía es que tu arma logro bloquear parte de la exploción\n";
+            std::cout << "Lo que mostro que ese brillo que viste fue por algo real \n";
+            std::cout << "Es en ese momento decides si quedarse o irse\n";
+            std::cout << "1.quedarse\n 2.irse" <<std::endl;
+            std::cin >> opcion;
+            if (opcion == 1)
+            {
+                std::cout << "Vuelves a la ciudad y\n";
+                std::cout << "Poco a poco vas ganando conociemiento de como hacer tu trabajo\n";
+                std::cout << "Y te vuelves uno de los mejores carroñeros de la ciudad\n";
+                std::cout << "Consiguiendo un gran avance en la ciudad gracías a los recursos que traes de afuera\n";
+            }
+            else
+            {
+                std::cout << "Miras por ultima vez hacía atras y dejas todo por ir a una nueva aventuras\n";
+                std::cout << "Desapareciendo por completo\n";
+                std::cout << "Y gracias al poder de tu nueva arma te las puedes valer fuera de la ciudad fue\n";
+
+            }
         }
-        else
-        {
-            std::cout << "Miras por ultima vez hacía atras y dejas todo por ir a una nueva aventuras\n";
-            std::cout << "Desapareciendo por completo\n";
-            std::cout << "Y gracias al poder de tu nueva arma te las puedes valer fuera de la ciudad fue\n";
-
         break;
-    }
+        }
 
-    system("pause");
-    system("cls");
-    std::cout << "Gracías por jugar";
+        system("pause");
+        system("cls");
+        std::cout << "Gracías por jugar\n";
+        std::cout << "Quieres repetirlo?\n1.Repetirlo 2.Salir\n";
+        std::cin >> opcion;
+    }while (opcion == 1);
+
+    std::cout << "Que final quieres 1 o 2??";
+    std::cin>>opcion;
+    std::cout << historia(opcion);
 }
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
