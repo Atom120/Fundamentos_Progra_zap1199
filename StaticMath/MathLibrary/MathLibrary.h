@@ -1,5 +1,6 @@
 #pragma once
 // MathLibrary.h
+#pragma once
 
 namespace MathLibrary
 {

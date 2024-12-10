@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d91b2e42-09dd-464d-8111-78acd2f22f41}</ProjectGuid>
+    <ProjectGuid>{627e9ff0-3654-4e03-96be-09a931572f20}</ProjectGuid>
     <RootNamespace>MathLibrary</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -131,10 +131,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="MathLibrary.cpp" />
+    <ClInclude Include="MathLibrary.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MathLibrary.h" />
+    <ClCompile Include="MathLibrary.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

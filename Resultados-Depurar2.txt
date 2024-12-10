@@ -1,0 +1,15 @@
+﻿'MathClient.exe' (Win32): 'C:\Users\Cleve\OneDrive\Escritorio\no borrar pls\Fundamentos_Progra_zap1199\StaticMath\x64\Debug\MathClient.exe' cargado. Símbolos cargados.
+'MathClient.exe' (Win32): 'C:\Windows\System32\ntdll.dll' cargado. 
+'MathClient.exe' (Win32): 'C:\Windows\System32\kernel32.dll' cargado. 
+'MathClient.exe' (Win32): 'C:\Windows\System32\KernelBase.dll' cargado. 
+'MathClient.exe' (Win32): 'C:\Windows\System32\apphelp.dll' cargado. 
+'MathClient.exe' (Win32): 'C:\Windows\System32\msvcp140d.dll' cargado. 
+'MathClient.exe' (Win32): 'C:\Windows\System32\vcruntime140_1d.dll' cargado. 
+'MathClient.exe' (Win32): 'C:\Windows\System32\vcruntime140d.dll' cargado. 
+'MathClient.exe' (Win32): 'C:\Windows\System32\ucrtbased.dll' cargado. 
+El subproceso 17224 terminó con código 0 (0x0).
+'MathClient.exe' (Win32): 'C:\Windows\System32\kernel.appcore.dll' cargado. 
+'MathClient.exe' (Win32): 'C:\Windows\System32\msvcrt.dll' cargado. 
+El subproceso 252 terminó con código 0 (0x0).
+El subproceso 26972 terminó con código 0 (0x0).
+El programa '[6536] MathClient.exe' terminó con código 0 (0x0).
