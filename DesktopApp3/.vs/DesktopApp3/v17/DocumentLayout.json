@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\DesktopApp3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C184B3E-7FF9-4403-BB90-CE9ECE456178}|DesktopApp3\\DesktopApp3.vcxproj|C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\DesktopApp3\\DesktopApp3\\HelloWindowsDesktop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3C184B3E-7FF9-4403-BB90-CE9ECE456178}|DesktopApp3\\DesktopApp3.vcxproj|solutionrelative:DesktopApp3\\HelloWindowsDesktop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\DesktopApp3\\DesktopApp3\\SelvasSebasti\u00E1nexamen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DesktopApp3\\SelvasSebasti\u00E1nexamen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,12 +19,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HelloWindowsDesktop.cpp",
-              "DocumentMoniker": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\DesktopApp3\\DesktopApp3\\HelloWindowsDesktop.cpp",
-              "RelativeDocumentMoniker": "DesktopApp3\\HelloWindowsDesktop.cpp",
-              "ToolTip": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\DesktopApp3\\DesktopApp3\\HelloWindowsDesktop.cpp",
-              "RelativeToolTip": "DesktopApp3\\HelloWindowsDesktop.cpp",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAAAHcAAABIAAAAAAAAAA==",
+              "Title": "SelvasSebasti\u00E1nexamen.cpp",
+              "DocumentMoniker": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\DesktopApp3\\DesktopApp3\\SelvasSebasti\u00E1nexamen.cpp",
+              "RelativeDocumentMoniker": "DesktopApp3\\SelvasSebasti\u00E1nexamen.cpp",
+              "ToolTip": "C:\\Users\\Cleve\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_Progra_zap1199\\DesktopApp3\\DesktopApp3\\SelvasSebasti\u00E1nexamen.cpp",
+              "RelativeToolTip": "DesktopApp3\\SelvasSebasti\u00E1nexamen.cpp",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-10T04:38:25.249Z",
               "EditorCaption": ""
@@ -38,6 +38,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
